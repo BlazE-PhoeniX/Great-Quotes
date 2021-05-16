@@ -1,5 +1,4 @@
-const FIREBASE_DOMAIN =
-  "https://react-movies-b45b0-default-rtdb.firebaseio.com";
+const FIREBASE_DOMAIN = "Your fire base domain";
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
