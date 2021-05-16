@@ -6,4 +6,4 @@ Nothing great as react :)
 
 demo: [here]
 
-[here]: https://www.great-quotes.netlify.app
+[here]: https://great-quotes.netlify.app
