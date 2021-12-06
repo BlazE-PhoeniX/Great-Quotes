@@ -1,4 +1,4 @@
-const FIREBASE_DOMAIN = "Your fire base domain";
+const FIREBASE_DOMAIN = process.env.FIREBASE_DOMAIN;
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
